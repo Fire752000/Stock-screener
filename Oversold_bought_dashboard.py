@@ -11,7 +11,7 @@ st.markdown("**RSI + Stochastic Scanner** (Lightweight Version)")
 # Sidebar
 st.sidebar.header("Settings")
 
-period = st.sidebar.selectbox("Data Period", ["3mo", "6mo", "1y", "2y"], index=1)
+period = st.sidebar.selectbox("Data Period", ["3mo", "6mo", "1y", "2y", "5y"], index=1)
 rsi_length = st.sidebar.slider("RSI Period", 7, 21, 14)
 oversold_threshold = st.sidebar.slider("Oversold Threshold", 20, 40, 30)
 overbought_threshold = st.sidebar.slider("Overbought Threshold", 60, 80, 70)
